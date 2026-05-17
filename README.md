@@ -32,3 +32,4 @@ Copy the current tab's URL in one click — or via the right-click page menu.
 
 - `manifest.json` — Extension configuration (Manifest V3)
 - `background.js` — Service worker: registers context menu and handles icon clicks
+- `LICENSE` — CC BY-NC 4.0
