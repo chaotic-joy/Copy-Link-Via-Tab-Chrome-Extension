@@ -2,9 +2,12 @@
   "manifest_version": 3,
   "name": "Copy Tab URL",
   "version": "1.0.0",
-  "description": "Right-click any tab to copy its URL.",
+  "description": "Click the toolbar icon or right-click the page to copy the tab's URL.",
   "permissions": ["tabs", "contextMenus", "clipboardWrite", "scripting"],
   "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Copy Tab URL"
+  },
   "background": {
     "service_worker": "background.js"
   }
